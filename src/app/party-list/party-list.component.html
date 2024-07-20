@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="add-party-button-container">
+    <button mat-raised-button color="primary" (click)="addParty()" class="add-party-button">Add Party</button>
+  </div>
+  <mat-grid-list [cols]="gridCols" rowHeight="2:1" gutterSize="16">
+    <mat-grid-tile *ngFor="let party of upcomingParties" class="party-card">
+      <div class="content">
+        <h2>{{ party.name }}</h2>
+        <p>Date: {{ party.date }}</p>
+        <p>Location: {{ party.location }}</p>
+        <button mat-raised-button color="primary" routerLink="/rsvp/{{ party.id }}">RSVP</button>
+      </div>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>

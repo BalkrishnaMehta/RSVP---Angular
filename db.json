@@ -1,0 +1,50 @@
+{
+  "parties": [
+    {
+      "id": "1",
+      "name": "Birthday Bash",
+      "date": "2023-08-15",
+      "location": "Central Park"
+    },
+    {
+      "id": "2",
+      "name": "Summer BBQ",
+      "date": "2023-07-30",
+      "location": "Beach House"
+    },
+    {
+      "id": "3",
+      "name": "Fancy Gala",
+      "date": "2023-09-10",
+      "location": "Grand Hotel Ballroom"
+    },
+    {
+      "id": "4",
+      "name": "Movie Night",
+      "date": "2023-08-05",
+      "location": "Home Theater"
+    },
+    {
+      "id": "5",
+      "name": "Game Night",
+      "date": "2023-07-28",
+      "location": "Friend's Place"
+    },
+    {
+      "id": 6,
+      "name": "hfdgd",
+      "date": "2025-05-25",
+      "location": "Surat"
+    }
+  ],
+  "guests": [
+    {
+      "id": "3456",
+      "partyId": 6,
+      "name": "Balkrishna Khyalilal Mehta",
+      "email": "krishmehta208@gmail.com",
+      "phone": "09664634390",
+      "attendance": "Yes, I'll be there"
+    }
+  ]
+}

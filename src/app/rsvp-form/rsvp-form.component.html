@@ -1,0 +1,33 @@
+<div class="center-container">
+  <div class="card">
+    <form [formGroup]="rsvpForm" (ngSubmit)="onSubmit()">
+      <div class="form-field">
+        <label>Name:</label>
+        <input type="text" formControlName="name" />
+      </div>
+
+      <div class="form-field">
+        <label>Email:</label>
+        <input type="email" formControlName="email" />
+      </div>
+
+      <div class="form-field">
+        <label>Phone:</label>
+        <input type="text" formControlName="phone" />
+      </div>
+
+      <div class="form-field">
+        <label>Attendance:</label>
+        <select formControlName="attendance">
+          <option value="">Select an option</option>
+          <option value="Yes, I'll be there">Yes, I'll be there</option>
+          <option value="No, I can't come">No, I can't come</option>
+        </select>
+      </div>
+
+    <div class="form-field">
+      <button type="submit" [disabled]="rsvpForm.invalid">RSVP</button>
+    </div>
+    </form>
+  </div>
+</div>

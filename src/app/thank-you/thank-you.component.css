@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+mat-card {
+    padding: 1.5rem;
+    max-width: 400px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.mat-h1 {
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+button {
+    display: flex;
+    align-items: center;
+}
